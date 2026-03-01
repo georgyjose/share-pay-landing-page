@@ -1,0 +1,66 @@
+<svg width="360" height="720" viewBox="0 0 360 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="360" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6C63FF"/>
+      <stop offset="100%" stop-color="#4F8CFF"/>
+    </linearGradient>
+    <linearGradient id="successGrad" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22C55E"/>
+      <stop offset="100%" stop-color="#4ADE80"/>
+    </linearGradient>
+    <clipPath id="screen"><rect width="360" height="720" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#screen)">
+    <rect width="360" height="720" fill="#FAFAFE"/>
+    <!-- Status bar -->
+    <rect width="360" height="48" fill="url(#grad)"/>
+    <text x="24" y="32" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="14" font-weight="600" fill="white">9:41</text>
+    <!-- Header -->
+    <rect y="48" width="360" height="60" fill="url(#grad)"/>
+    <text x="24" y="84" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="15" fill="white" opacity="0.8">← Back</text>
+    <text x="142" y="84" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="18" font-weight="700" fill="white">Settle Up</text>
+    <!-- Settlement Summary -->
+    <rect x="16" y="124" width="328" height="180" rx="16" fill="white" stroke="#E8E8F0" stroke-width="1"/>
+    <!-- From -->
+    <circle cx="100" cy="184" r="32" fill="#C4B5FD"/>
+    <text x="88" y="190" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="18" font-weight="600" fill="white">You</text>
+    <text x="100" y="232" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="12" fill="#6B6B8D" text-anchor="middle">Georgy</text>
+    <!-- Arrow -->
+    <line x1="142" y1="184" x2="210" y2="184" stroke="url(#grad)" stroke-width="2" stroke-dasharray="6 3"/>
+    <polygon points="210,180 220,184 210,188" fill="#6C63FF"/>
+    <!-- Amount on arrow -->
+    <rect x="148" y="164" width="60" height="24" rx="12" fill="url(#grad)"/>
+    <text x="178" y="180" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" font-weight="700" fill="white" text-anchor="middle">$64.00</text>
+    <!-- To -->
+    <circle cx="260" cy="184" r="32" fill="#93C5FD"/>
+    <text x="250" y="190" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="18" font-weight="600" fill="white">SJ</text>
+    <text x="260" y="232" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="12" fill="#6B6B8D" text-anchor="middle">Sarah</text>
+    <!-- Title -->
+    <text x="180" y="282" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="13" fill="#6B6B8D" text-anchor="middle">From: Apartment Rent</text>
+    <!-- Breakdown -->
+    <text x="24" y="340" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="15" font-weight="600" fill="#0F0F1A">Breakdown</text>
+    <rect x="16" y="354" width="328" height="56" rx="12" fill="white" stroke="#E8E8F0" stroke-width="1"/>
+    <text x="32" y="378" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="13" fill="#6B6B8D">Electricity Bill (Feb)</text>
+    <text x="296" y="378" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="13" font-weight="600" fill="#0F0F1A">$24.00</text>
+    <rect x="16" y="418" width="328" height="56" rx="12" fill="white" stroke="#E8E8F0" stroke-width="1"/>
+    <text x="32" y="442" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="13" fill="#6B6B8D">Internet (Feb)</text>
+    <text x="296" y="442" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="13" font-weight="600" fill="#0F0F1A">$15.00</text>
+    <rect x="16" y="482" width="328" height="56" rx="12" fill="white" stroke="#E8E8F0" stroke-width="1"/>
+    <text x="32" y="506" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="13" fill="#6B6B8D">Groceries (shared)</text>
+    <text x="296" y="506" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="13" font-weight="600" fill="#0F0F1A">$25.00</text>
+    <!-- Total -->
+    <rect x="16" y="554" width="328" height="52" rx="12" fill="#F8FAFC"/>
+    <text x="32" y="586" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="15" font-weight="700" fill="#0F0F1A">Total</text>
+    <text x="288" y="586" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="18" font-weight="700" fill="#0F0F1A">$64.00</text>
+    <!-- Payment Method -->
+    <text x="24" y="636" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="13" font-weight="600" fill="#6B6B8D">PAYMENT METHOD</text>
+    <rect x="16" y="646" width="104" height="36" rx="18" fill="url(#grad)"/>
+    <text x="38" y="668" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="12" font-weight="600" fill="white">💵 Cash</text>
+    <rect x="128" y="646" width="104" height="36" rx="18" fill="#F3F4F6"/>
+    <text x="146" y="668" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="12" fill="#6B6B8D">📱 UPI</text>
+    <rect x="240" y="646" width="104" height="36" rx="18" fill="#F3F4F6"/>
+    <text x="256" y="668" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="12" fill="#6B6B8D">🏦 Bank</text>
+    <!-- Settle Button -->
+    <rect x="16" y="696" width="328" height="0" rx="24" fill="url(#successGrad)"/>
+  </g>
+</svg>

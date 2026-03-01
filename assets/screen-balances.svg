@@ -1,0 +1,99 @@
+<svg width="360" height="720" viewBox="0 0 360 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="360" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6C63FF"/>
+      <stop offset="100%" stop-color="#4F8CFF"/>
+    </linearGradient>
+    <linearGradient id="greenBar" x1="0" y1="0" x2="200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22C55E"/>
+      <stop offset="100%" stop-color="#4ADE80"/>
+    </linearGradient>
+    <linearGradient id="redBar" x1="0" y1="0" x2="200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#EF4444"/>
+      <stop offset="100%" stop-color="#F87171"/>
+    </linearGradient>
+    <clipPath id="screen"><rect width="360" height="720" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#screen)">
+    <rect width="360" height="720" fill="#FAFAFE"/>
+    <!-- Status bar -->
+    <rect width="360" height="48" fill="url(#grad)"/>
+    <text x="24" y="32" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="14" font-weight="600" fill="white">9:41</text>
+    <!-- Header -->
+    <rect y="48" width="360" height="72" fill="url(#grad)"/>
+    <text x="24" y="92" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="24" font-weight="700" fill="white">Balances</text>
+    <!-- Summary Cards -->
+    <rect x="16" y="136" width="156" height="80" rx="14" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="1"/>
+    <text x="32" y="162" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#15803D">You are owed</text>
+    <text x="32" y="196" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="28" font-weight="700" fill="#15803D">$345</text>
+    <rect x="188" y="136" width="156" height="80" rx="14" fill="#FEF2F2" stroke="#FECACA" stroke-width="1"/>
+    <text x="204" y="162" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#DC2626">You owe</text>
+    <text x="204" y="196" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="28" font-weight="700" fill="#DC2626">$99</text>
+    <!-- Friends Balances Header -->
+    <text x="24" y="254" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="17" font-weight="600" fill="#0F0F1A">Friends</text>
+    <!-- Friend 1 -->
+    <rect x="16" y="270" width="328" height="72" rx="12" fill="white" stroke="#E8E8F0" stroke-width="1"/>
+    <circle cx="48" cy="306" r="20" fill="#C4B5FD"/>
+    <text x="40" y="311" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="13" font-weight="600" fill="white">AK</text>
+    <text x="80" y="298" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="14" font-weight="600" fill="#0F0F1A">Alex Kumar</text>
+    <rect x="80" y="308" width="120" height="6" rx="3" fill="#F3F4F6"/>
+    <rect x="80" y="308" width="80" height="6" rx="3" fill="url(#greenBar)"/>
+    <text x="268" y="298" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="14" font-weight="700" fill="#22C55E">+$120.00</text>
+    <text x="274" y="316" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#6B6B8D">owes you</text>
+    <!-- Friend 2 -->
+    <rect x="16" y="350" width="328" height="72" rx="12" fill="white" stroke="#E8E8F0" stroke-width="1"/>
+    <circle cx="48" cy="386" r="20" fill="#93C5FD"/>
+    <text x="41" y="391" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="13" font-weight="600" fill="white">SJ</text>
+    <text x="80" y="378" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="14" font-weight="600" fill="#0F0F1A">Sarah Jones</text>
+    <rect x="80" y="388" width="120" height="6" rx="3" fill="#F3F4F6"/>
+    <rect x="80" y="388" width="60" height="6" rx="3" fill="url(#redBar)"/>
+    <text x="276" y="378" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="14" font-weight="700" fill="#EF4444">-$64.00</text>
+    <text x="282" y="396" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#6B6B8D">you owe</text>
+    <!-- Friend 3 -->
+    <rect x="16" y="430" width="328" height="72" rx="12" fill="white" stroke="#E8E8F0" stroke-width="1"/>
+    <circle cx="48" cy="466" r="20" fill="#86EFAC"/>
+    <text x="39" y="471" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="13" font-weight="600" fill="white">MR</text>
+    <text x="80" y="458" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="14" font-weight="600" fill="#0F0F1A">Mike Robinson</text>
+    <rect x="80" y="468" width="120" height="6" rx="3" fill="#F3F4F6"/>
+    <rect x="80" y="468" width="100" height="6" rx="3" fill="url(#greenBar)"/>
+    <text x="268" y="458" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="14" font-weight="700" fill="#22C55E">+$175.50</text>
+    <text x="274" y="476" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#6B6B8D">owes you</text>
+    <!-- Friend 4 -->
+    <rect x="16" y="510" width="328" height="72" rx="12" fill="white" stroke="#E8E8F0" stroke-width="1"/>
+    <circle cx="48" cy="546" r="20" fill="#FCA5A5"/>
+    <text x="42" y="551" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="13" font-weight="600" fill="white">PL</text>
+    <text x="80" y="538" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="14" font-weight="600" fill="#0F0F1A">Priya Lee</text>
+    <rect x="80" y="548" width="120" height="6" rx="3" fill="#F3F4F6"/>
+    <rect x="80" y="548" width="40" height="6" rx="3" fill="url(#redBar)"/>
+    <text x="280" y="538" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="14" font-weight="700" fill="#EF4444">-$35.00</text>
+    <text x="282" y="556" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#6B6B8D">you owe</text>
+    <!-- Friend 5 -->
+    <rect x="16" y="590" width="328" height="72" rx="12" fill="white" stroke="#E8E8F0" stroke-width="1"/>
+    <circle cx="48" cy="626" r="20" fill="#FCD34D"/>
+    <text x="40" y="631" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="13" font-weight="600" fill="white">DJ</text>
+    <text x="80" y="618" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="14" font-weight="600" fill="#0F0F1A">David James</text>
+    <rect x="80" y="628" width="120" height="6" rx="3" fill="#F3F4F6"/>
+    <rect x="80" y="628" width="50" height="6" rx="3" fill="url(#greenBar)"/>
+    <text x="272" y="618" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="14" font-weight="700" fill="#22C55E">+$49.50</text>
+    <text x="274" y="636" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="11" fill="#6B6B8D">owes you</text>
+    <!-- Bottom Tab Bar -->
+    <rect y="660" width="360" height="60" fill="white" stroke="#E8E8F0" stroke-width="1"/>
+    <g transform="translate(36,672)">
+      <text x="16" y="10" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="18" text-anchor="middle">🏠</text>
+      <text x="16" y="26" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="9" fill="#6B6B8D" text-anchor="middle">Home</text>
+    </g>
+    <g transform="translate(120,672)">
+      <text x="16" y="10" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="18" text-anchor="middle">👥</text>
+      <text x="16" y="26" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="9" fill="#6B6B8D" text-anchor="middle">Groups</text>
+    </g>
+    <g transform="translate(200,672)">
+      <circle cx="16" cy="6" r="22" fill="url(#grad)"/>
+      <text x="16" y="12" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="22" fill="white" text-anchor="middle">+</text>
+    </g>
+    <g transform="translate(280,672)">
+      <rect x="-8" y="-4" width="48" height="36" rx="10" fill="rgba(108,99,255,0.08)"/>
+      <text x="16" y="10" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="18" text-anchor="middle">📊</text>
+      <text x="16" y="26" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="9" font-weight="600" fill="#6C63FF" text-anchor="middle">Balance</text>
+    </g>
+  </g>
+</svg>
